@@ -1,0 +1,101 @@
+# 医学論文自動通知システム設定ファイル
+
+# PubMed API設定
+pubmed:
+  email: "your-email@example.com"  # PubMed APIに必須
+  api_key: ""  # オプション（レート制限を緩和）
+  max_results: 50  # 1回の検索で取得する最大論文数
+
+# 検索クエリ設定
+search_queries:
+  female_urology:
+    - "female urinary incontinence"
+    - "pelvic organ prolapse"
+    - "overactive bladder women"
+    - "female lower urinary tract symptoms"
+    - "urogynecology"
+
+  female_sexual_function:
+    - "female sexual dysfunction"
+    - "female sexual arousal disorder"
+    - "hypoactive sexual desire disorder women"
+    - "genito-pelvic pain penetration disorder"
+    - "women sexual health"
+
+  general_sexual_function:
+    - "sexual dysfunction therapy"
+    - "sexual medicine"
+    - "erectile dysfunction"
+    - "premature ejaculation"
+
+  pelvic_floor:
+    - "pelvic floor dysfunction"
+    - "pelvic floor muscle training"
+    - "pelvic floor rehabilitation"
+    - "levator ani"
+
+# フィルタリング設定
+filtering:
+  min_relevance_score: 0.6  # 関連性スコアの最小値
+  preferred_journals:
+    - "International Urogynecology Journal"
+    - "Neurourology and Urodynamics"
+    - "The Journal of Sexual Medicine"
+    - "Sexual Medicine"
+    - "Nature Reviews Urology"
+    - "BJU International"
+    - "European Urology"
+
+  publication_types:
+    - "Journal Article"
+    - "Review"
+    - "Meta-Analysis"
+    - "Randomized Controlled Trial"
+    - "Clinical Trial"
+
+  language: "eng"  # 英語論文のみ
+  days_back: 7  # 過去何日分の論文を取得するか
+
+# 論文選択設定
+selection:
+  max_papers_per_notification: 8  # 1回の通知で送る論文数
+  prioritize_high_impact: true
+  include_preprints: false
+
+# 通知設定
+notification:
+  frequency: "twice_weekly"  # weekly, twice_weekly, daily
+  schedule:
+    - day: "Monday"
+      time: "09:00"
+    - day: "Thursday"
+      time: "09:00"
+
+  methods:
+    email:
+      enabled: true
+      recipients:
+        - "your-email@example.com"
+      smtp_server: "smtp.gmail.com"
+      smtp_port: 587
+      sender: "paper-alerts@example.com"
+
+    slack:
+      enabled: false
+      webhook_url: ""
+
+    discord:
+      enabled: false
+      webhook_url: ""
+
+# Claude API設定（和訳・解説用）
+claude_api:
+  api_key: ""  # Anthropic API key
+  model: "claude-sonnet-4-5-20250929"
+  max_tokens: 4096
+
+# ストレージ設定
+storage:
+  format: "markdown"  # markdown, json, both
+  include_bibtex: true  # BibTeX形式の引用情報を含める
+  auto_categorize: true  # 自動カテゴリ分類
