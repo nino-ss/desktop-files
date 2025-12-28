@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ドクターMBTI診断 - あなたの医師タイプを知ろう</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .intro-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .intro-section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .intro-section p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .start-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 20px;
+        }
+
+        .start-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .question-section {
+            display: none;
+        }
+
+        .question-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .option {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .option input[type="radio"] {
+            margin-right: 15px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .nav-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1rem;
+        }
+
+        .nav-button:hover:not(:disabled) {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+
+        .nav-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .result-section {
+            display: none;
+        }
+
+        .result-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .mbti-type {
+            font-size: 3rem;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .doctor-type {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .result-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        .result-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .result-card h3::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: #667eea;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+
+        .result-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .result-card li {
+            padding: 10px 0;
+            color: #555;
+            line-height: 1.6;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .result-card li:last-child {
+            border-bottom: none;
+        }
+
+        .result-card li::before {
+            content: '●';
+            color: #667eea;
+            margin-right: 10px;
+        }
+
+        .restart-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .restart-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .mbti-type {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🩺 ドクターMBTI診断</h1>
+            <p>あなたの医師タイプと強みを発見しましょう</p>
+        </div>
+
+        <div class="content">
+            <!-- イントロセクション -->
+            <div class="intro-section" id="introSection">
+                <h2>診断について</h2>
+                <p>この診断は、MBTI（Myers-Briggs Type Indicator）理論に基づいて、あなたの医師としてのタイプを分析します。</p>
+                <p>12問の質問に答えることで、あなたの性格タイプ、得意な診療スタイル、強みと弱み、陥りやすい失敗パターンなどがわかります。</p>
+                <p>診断時間は約3〜5分です。直感的に、普段の自分に最も近い選択肢を選んでください。</p>
+                <button class="start-button" onclick="startDiagnostic()">診断を開始する</button>
+            </div>
+
+            <!-- 質問セクション -->
+            <div class="question-section" id="questionSection">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div id="questionContainer"></div>
+                <div class="navigation">
+                    <button class="nav-button" id="prevButton" onclick="prevQuestion()" disabled>前へ</button>
+                    <button class="nav-button" id="nextButton" onclick="nextQuestion()">次へ</button>
+                </div>
+            </div>
+
+            <!-- 結果セクション -->
+            <div class="result-section" id="resultSection">
+                <div class="result-header">
+                    <div class="mbti-type" id="mbtiType"></div>
+                    <div class="doctor-type" id="doctorType"></div>
+                </div>
+                <div id="resultContent"></div>
+                <button class="restart-button" onclick="restartDiagnostic()">もう一度診断する</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // MBTI診断の質問データ
+        const questions = [
+            // E vs I (外向性 vs 内向性)
+            {
+                question: "カンファレンスや学会で、あなたはどのように行動しますか？",
+                dimension: "EI",
+                options: [
+                    { text: "積極的に多くの人と交流し、ネットワーキングを楽しむ", value: "E" },
+                    { text: "少数の親しい人と深い議論をすることを好む", value: "I" }
+                ]
+            },
+            {
+                question: "忙しい診療の後、あなたはどのようにエネルギーを回復しますか？",
+                dimension: "EI",
+                options: [
+                    { text: "同僚や友人と話したり、外出したりする", value: "E" },
+                    { text: "一人で静かに過ごしたり、読書や勉強をする", value: "I" }
+                ]
+            },
+            {
+                question: "患者さんとのコミュニケーションスタイルは？",
+                dimension: "EI",
+                options: [
+                    { text: "話しながら考え、対話を通じて診断を進める", value: "E" },
+                    { text: "まず内省し、考えをまとめてから説明する", value: "I" }
+                ]
+            },
+            // S vs N (感覚 vs 直観)
+            {
+                question: "診断を下すとき、あなたは何を重視しますか？",
+                dimension: "SN",
+                options: [
+                    { text: "具体的な検査データや臨床所見などの事実", value: "S" },
+                    { text: "パターン認識や直感、全体像の把握", value: "N" }
+                ]
+            },
+            {
+                question: "新しい治療法について学ぶとき、あなたはどのようなアプローチを取りますか？",
+                dimension: "SN",
+                options: [
+                    { text: "具体的な手技やプロトコルを段階的に学ぶ", value: "S" },
+                    { text: "理論的背景や概念を理解してから詳細に進む", value: "N" }
+                ]
+            },
+            {
+                question: "医療現場での問題解決において、あなたはどちらを好みますか？",
+                dimension: "SN",
+                options: [
+                    { text: "実証済みの確立された方法を使用する", value: "S" },
+                    { text: "革新的で独創的なアプローチを試みる", value: "N" }
+                ]
+            },
+            // T vs F (思考 vs 感情)
+            {
+                question: "難しい治療方針を決定するとき、最も重視するのは？",
+                dimension: "TF",
+                options: [
+                    { text: "エビデンスに基づく論理的な判断", value: "T" },
+                    { text: "患者さんの価値観や感情への配慮", value: "F" }
+                ]
+            },
+            {
+                question: "患者さんへの説明において、あなたが大切にするのは？",
+                dimension: "TF",
+                options: [
+                    { text: "正確で客観的な情報と論理的な説明", value: "T" },
+                    { text: "共感的な態度と患者さんの気持ちへの寄り添い", value: "F" }
+                ]
+            },
+            {
+                question: "チーム医療でのあなたの役割は？",
+                dimension: "TF",
+                options: [
+                    { text: "効率性と論理性を重視し、問題を分析する", value: "T" },
+                    { text: "チームの調和を大切にし、メンバーをサポートする", value: "F" }
+                ]
+            },
+            // J vs P (判断 vs 知覚)
+            {
+                question: "1日の診療スケジュールに対するあなたの姿勢は？",
+                dimension: "JP",
+                options: [
+                    { text: "計画的に時間管理し、予定通りに進めることを好む", value: "J" },
+                    { text: "柔軟に対応し、状況に応じて優先順位を変える", value: "P" }
+                ]
+            },
+            {
+                question: "学会発表や論文執筆などのプロジェクトへの取り組み方は？",
+                dimension: "JP",
+                options: [
+                    { text: "早めに計画を立て、締め切り前に余裕を持って完成させる", value: "J" },
+                    { text: "締め切りが近づくにつれて集中力が高まり、効率的に仕上げる", value: "P" }
+                ]
+            },
+            {
+                question: "診療方針の変更に対してどのように感じますか？",
+                dimension: "JP",
+                options: [
+                    { text: "決めたことは守りたいが、必要に応じて変更する", value: "J" },
+                    { text: "新しい情報に基づいて柔軟に方針を変更することを好む", value: "P" }
+                ]
+            }
+        ];
+
+        // MBTI各タイプの医師としての特性
+        const mbtiDoctorProfiles = {
+            "ISTJ": {
+                type: "責任感の強い実践派ドクター",
+                characteristics: [
+                    "緻密で正確な診療を提供する",
+                    "ガイドラインやプロトコルを重視する",
+                    "患者記録を丁寧に管理する",
+                    "信頼性が高く、責任感が強い"
+                ],
+                strengths: [
+                    "詳細な病歴聴取と身体診察",
+                    "標準的な治療の確実な実施",
+                    "医療記録の正確な管理",
+                    "長期的な患者フォローアップ"
+                ],
+                weaknesses: [
+                    "柔軟性に欠ける場合がある",
+                    "新しい治療法の採用に慎重すぎる",
+                    "患者の感情面への配慮が不足しがち",
+                    "変化への適応に時間がかかる"
+                ],
+                pitfalls: [
+                    "プロトコルに固執して個別対応を見落とす",
+                    "患者の心理的ニーズを軽視してしまう",
+                    "過度に完璧を求めて時間を浪費する",
+                    "新しいエビデンスの取り入れが遅れる"
+                ],
+                advice: [
+                    "患者の感情にも注意を向けましょう",
+                    "時には柔軟な対応も必要です",
+                    "新しい知見を積極的に学ぶ習慣を",
+                    "完璧より80%の完成度で進めることも大切"
+                ]
+            },
+            "ISFJ": {
+                type: "献身的なケアラードクター",
+                characteristics: [
+                    "患者一人ひとりに寄り添う丁寧な診療",
+                    "細やかな気配りと観察力",
+                    "チーム医療での調整役",
+                    "伝統的な医療を大切にする"
+                ],
+                strengths: [
+                    "患者の些細な変化にも気づく観察力",
+                    "継続的で温かいケアの提供",
+                    "医療スタッフとの良好な関係構築",
+                    "患者の生活背景への深い理解"
+                ],
+                weaknesses: [
+                    "自分のニーズを後回しにしがち",
+                    "変化やイノベーションへの抵抗",
+                    "批判を個人的に受け止めすぎる",
+                    "境界線を引くのが難しい"
+                ],
+                pitfalls: [
+                    "燃え尽き症候群のリスクが高い",
+                    "患者の要求を断れずに過重労働になる",
+                    "自己主張が足りずストレスを溜める",
+                    "新しい治療法の導入が遅れる"
+                ],
+                advice: [
+                    "自分自身のケアも大切にしましょう",
+                    "時には「No」と言う勇気を持ちましょう",
+                    "新しい方法にもオープンになりましょう",
+                    "定期的な休息とリフレッシュを"
+                ]
+            },
+            "INFJ": {
+                type: "理想を追求するヒーラードクター",
+                characteristics: [
+                    "患者の深層心理まで理解しようとする",
+                    "長期的な健康ビジョンを持つ",
+                    "革新的な治療アプローチに関心",
+                    "医療の社会的意義を重視"
+                ],
+                strengths: [
+                    "患者の本質的なニーズを見抜く洞察力",
+                    "全人的医療の実践",
+                    "長期的な治療計画の立案",
+                    "患者の人生に深く影響を与える"
+                ],
+                weaknesses: [
+                    "理想と現実のギャップに苦しむ",
+                    "完璧主義で自己批判的",
+                    "感情的に疲弊しやすい",
+                    "実務的な作業を軽視しがち"
+                ],
+                pitfalls: [
+                    "理想を追求しすぎて現実的な判断を誤る",
+                    "患者の問題を抱え込みすぎる",
+                    "直感に頼りすぎて客観性を失う",
+                    "日常的な診療業務を軽視してしまう"
+                ],
+                advice: [
+                    "現実的な目標設定も大切にしましょう",
+                    "エビデンスと直感のバランスを取りましょう",
+                    "定期的なセルフケアの時間を確保しましょう",
+                    "日々の小さな成功も認めましょう"
+                ]
+            },
+            "INTJ": {
+                type: "戦略的思考の革新派ドクター",
+                characteristics: [
+                    "システマティックなアプローチ",
+                    "独立心が強く自信に満ちている",
+                    "最新の医学知識を追求",
+                    "長期的な戦略を立てる"
+                ],
+                strengths: [
+                    "複雑な症例の論理的分析",
+                    "革新的な治療戦略の立案",
+                    "医療システムの改善提案",
+                    "独立した研究や専門性の追求"
+                ],
+                weaknesses: [
+                    "患者の感情面への配慮不足",
+                    "協調性に欠ける傾向",
+                    "批判的すぎる態度",
+                    "コミュニケーションの不足"
+                ],
+                pitfalls: [
+                    "自分の知識に過信して他者の意見を軽視",
+                    "患者との共感的な関係構築に失敗",
+                    "チーム内で孤立してしまう",
+                    "完璧な解決策を求めすぎて行動が遅れる"
+                ],
+                advice: [
+                    "患者の感情にも目を向けましょう",
+                    "チームメンバーの意見も尊重しましょう",
+                    "コミュニケーションスキルの向上を",
+                    "完璧でなくても行動することも重要"
+                ]
+            },
+            "ISTP": {
+                type: "冷静沈着な問題解決ドクター",
+                characteristics: [
+                    "実践的で技術的なスキルに優れる",
+                    "緊急時の冷静な判断力",
+                    "効率的なアプローチを好む",
+                    "論理的で客観的"
+                ],
+                strengths: [
+                    "手技やオペレーションの高い技術力",
+                    "危機管理能力に優れる",
+                    "無駄のない効率的な診療",
+                    "客観的なデータ分析"
+                ],
+                weaknesses: [
+                    "ルーチンワークへの退屈",
+                    "感情表現が少ない",
+                    "長期的な計画が苦手",
+                    "患者への説明が不十分になりがち"
+                ],
+                pitfalls: [
+                    "患者とのコミュニケーション不足",
+                    "型にはまった診療に飽きてしまう",
+                    "感情的サポートを軽視する",
+                    "チーム内での情報共有が不足"
+                ],
+                advice: [
+                    "患者への説明を丁寧に行いましょう",
+                    "定期的なコミュニケーションを心がけましょう",
+                    "長期的な視点も持ちましょう",
+                    "感情面のケアも重要です"
+                ]
+            },
+            "ISFP": {
+                type: "共感力の高い芸術派ドクター",
+                characteristics: [
+                    "患者の個別性を尊重する",
+                    "温かく穏やかな診療スタイル",
+                    "美的感覚を持つ",
+                    "柔軟で適応力がある"
+                ],
+                strengths: [
+                    "患者の感情に寄り添う能力",
+                    "個別化された医療の提供",
+                    "美容や形成など審美的な分野での活躍",
+                    "現在の瞬間に集中した診療"
+                ],
+                weaknesses: [
+                    "批判や対立を避けがち",
+                    "自己主張が弱い",
+                    "長期計画が苦手",
+                    "ストレスを内に溜め込む"
+                ],
+                pitfalls: [
+                    "困難な患者との対立を避けて問題を先送り",
+                    "自分の意見を言えずにストレスを溜める",
+                    "計画性の欠如で締め切りに追われる",
+                    "燃え尽き症候群のリスク"
+                ],
+                advice: [
+                    "必要な時は自己主張をしましょう",
+                    "長期的な視点を持つ習慣を",
+                    "定期的なストレス解消を",
+                    "計画的に仕事を進めることも大切"
+                ]
+            },
+            "INFP": {
+                type: "理想主義の共感派ドクター",
+                characteristics: [
+                    "患者の人間性を深く理解する",
+                    "医療への情熱と使命感",
+                    "創造的な治療アプローチ",
+                    "価値観を重視する"
+                ],
+                strengths: [
+                    "患者との深い信頼関係構築",
+                    "ホリスティックな医療観",
+                    "患者の物語を聴く力",
+                    "代替医療への理解"
+                ],
+                weaknesses: [
+                    "現実的な判断が難しい",
+                    "批判に敏感",
+                    "組織のルールに抵抗感",
+                    "実務処理が苦手"
+                ],
+                pitfalls: [
+                    "理想と現実のギャップに悩む",
+                    "感情移入しすぎて客観性を失う",
+                    "実務的な作業を後回しにする",
+                    "自己犠牲的になりすぎる"
+                ],
+                advice: [
+                    "現実的な目標も設定しましょう",
+                    "客観的なデータも重視しましょう",
+                    "実務処理の時間も確保しましょう",
+                    "自分自身のケアも忘れずに"
+                ]
+            },
+            "INTP": {
+                type: "理論追求の分析派ドクター",
+                characteristics: [
+                    "論理的思考と分析力に優れる",
+                    "理論的背景を深く理解する",
+                    "独創的なアイデアを持つ",
+                    "知的好奇心が旺盛"
+                ],
+                strengths: [
+                    "複雑な病態の理論的解明",
+                    "研究や学術活動での活躍",
+                    "革新的な仮説の構築",
+                    "論理的な診断プロセス"
+                ],
+                weaknesses: [
+                    "実践よりも理論を優先しがち",
+                    "患者とのコミュニケーション不足",
+                    "日常的な診療業務への関心低下",
+                    "感情的サポートが苦手"
+                ],
+                pitfalls: [
+                    "理論に固執して実践を軽視",
+                    "患者の感情的ニーズを見落とす",
+                    "完璧な理論を求めて決断が遅れる",
+                    "チーム内での孤立"
+                ],
+                advice: [
+                    "理論と実践のバランスを取りましょう",
+                    "患者とのコミュニケーションを大切に",
+                    "チームワークも重視しましょう",
+                    "実務的なスキルも磨きましょう"
+                ]
+            },
+            "ESTP": {
+                type: "行動派のアクティブドクター",
+                characteristics: [
+                    "迅速な意思決定と行動力",
+                    "実践的で現実的",
+                    "リスクテイキングを恐れない",
+                    "エネルギッシュで社交的"
+                ],
+                strengths: [
+                    "緊急医療での活躍",
+                    "手技やオペの高い技術",
+                    "即座の状況判断",
+                    "チーム内でのリーダーシップ"
+                ],
+                weaknesses: [
+                    "長期的な計画が苦手",
+                    "細かい記録作業を軽視",
+                    "衝動的な判断",
+                    "ルーチンワークへの退屈"
+                ],
+                pitfalls: [
+                    "十分な検討なしに行動してミスを犯す",
+                    "医療記録の不備",
+                    "長期的な患者ケアの継続性欠如",
+                    "リスクの高い決断をしすぎる"
+                ],
+                advice: [
+                    "行動前に一度立ち止まって考えましょう",
+                    "記録管理の重要性を認識しましょう",
+                    "長期的な視点も持ちましょう",
+                    "慎重さと行動力のバランスを"
+                ]
+            },
+            "ESFP": {
+                type: "エンターテイナードクター",
+                characteristics: [
+                    "明るく親しみやすい",
+                    "患者を元気づける力",
+                    "実践的で現実的",
+                    "チームの雰囲気を良くする"
+                ],
+                strengths: [
+                    "患者との信頼関係構築",
+                    "楽観的で前向きな診療",
+                    "チームの士気向上",
+                    "小児科や高齢者医療での活躍"
+                ],
+                weaknesses: [
+                    "計画性の欠如",
+                    "批判への過敏性",
+                    "深い理論的思考が苦手",
+                    "長期的なフォローが不十分"
+                ],
+                pitfalls: [
+                    "楽観的すぎてリスクを軽視",
+                    "計画なしに行動して混乱を招く",
+                    "感情的に判断してしまう",
+                    "学術的な勉強を怠る"
+                ],
+                advice: [
+                    "計画的に仕事を進めましょう",
+                    "客観的なデータも重視しましょう",
+                    "継続的な学習を心がけましょう",
+                    "楽観と慎重さのバランスを"
+                ]
+            },
+            "ENFP": {
+                type: "情熱的な革新派ドクター",
+                characteristics: [
+                    "創造的で革新的",
+                    "患者との深い繋がりを大切にする",
+                    "可能性を見出す力",
+                    "エネルギッシュで熱心"
+                ],
+                strengths: [
+                    "患者のモチベーション向上",
+                    "革新的な治療アプローチ",
+                    "全人的医療の実践",
+                    "チームのインスピレーション源"
+                ],
+                weaknesses: [
+                    "集中力の維持が困難",
+                    "ルーチンワークへの抵抗",
+                    "過度の理想主義",
+                    "細部への注意不足"
+                ],
+                pitfalls: [
+                    "新しいアイデアに飛びつきすぎて混乱",
+                    "日常業務を軽視してしまう",
+                    "多くのことを始めて完了しない",
+                    "現実的な制約を無視する"
+                ],
+                advice: [
+                    "一つのことを完了させる習慣を",
+                    "ルーチンワークの重要性も認識しましょう",
+                    "現実的な目標設定を",
+                    "細部への注意も払いましょう"
+                ]
+            },
+            "ENTP": {
+                type: "挑戦的なディベータードクター",
+                characteristics: [
+                    "知的議論を楽しむ",
+                    "革新的で型破り",
+                    "問題解決能力に優れる",
+                    "起業家精神がある"
+                ],
+                strengths: [
+                    "複雑な症例の創造的解決",
+                    "医療イノベーションの推進",
+                    "活発な学術討論",
+                    "新しい治療法の開発"
+                ],
+                weaknesses: [
+                    "ルーチンワークへの退屈",
+                    "細部への注意不足",
+                    "議論好きで対立を招く",
+                    "計画の完遂が苦手"
+                ],
+                pitfalls: [
+                    "議論のための議論で時間を浪費",
+                    "確立された方法を軽視しすぎる",
+                    "プロジェクトを完了させない",
+                    "患者の感情を無視した論理的アプローチ"
+                ],
+                advice: [
+                    "標準的な方法の価値も認めましょう",
+                    "患者の感情にも配慮しましょう",
+                    "始めたことは完了させる習慣を",
+                    "建設的な議論を心がけましょう"
+                ]
+            },
+            "ESTJ": {
+                type: "リーダーシップの組織派ドクター",
+                characteristics: [
+                    "効率的で組織的",
+                    "強いリーダーシップ",
+                    "規則とプロトコルを重視",
+                    "実務的で現実的"
+                ],
+                strengths: [
+                    "チームマネジメント",
+                    "効率的な診療システムの構築",
+                    "明確な意思決定",
+                    "組織運営能力"
+                ],
+                weaknesses: [
+                    "柔軟性の欠如",
+                    "感情面への配慮不足",
+                    "支配的な態度",
+                    "変化への抵抗"
+                ],
+                pitfalls: [
+                    "規則に固執して個別対応を見落とす",
+                    "チームメンバーの意見を軽視",
+                    "患者の感情的ニーズを無視",
+                    "トップダウンのアプローチで反発を招く"
+                ],
+                advice: [
+                    "柔軟な対応も必要です",
+                    "メンバーの意見に耳を傾けましょう",
+                    "患者の感情にも配慮しましょう",
+                    "時には権限委譲も大切"
+                ]
+            },
+            "ESFJ": {
+                type: "温かいサポータードクター",
+                characteristics: [
+                    "患者思いで思いやりがある",
+                    "チーム協調性が高い",
+                    "実践的で組織的",
+                    "社交的で親しみやすい"
+                ],
+                strengths: [
+                    "患者との信頼関係構築",
+                    "チーム内の調和維持",
+                    "継続的なケアの提供",
+                    "コミュニティ医療での活躍"
+                ],
+                weaknesses: [
+                    "批判に敏感",
+                    "承認欲求が強い",
+                    "変化への抵抗",
+                    "境界線を引くのが困難"
+                ],
+                pitfalls: [
+                    "過度に他者に尽くして燃え尽きる",
+                    "批判を個人攻撃と受け取る",
+                    "患者の要求を断れない",
+                    "新しい方法への適応が遅れる"
+                ],
+                advice: [
+                    "自己ケアも大切にしましょう",
+                    "建設的な批判は成長の機会",
+                    "適切な境界線を設定しましょう",
+                    "新しい方法にもオープンに"
+                ]
+            },
+            "ENFJ": {
+                type: "カリスマ的なメンタードクター",
+                characteristics: [
+                    "患者に影響を与える力",
+                    "共感力が高い",
+                    "ビジョンを持つリーダー",
+                    "教育者的な資質"
+                ],
+                strengths: [
+                    "患者のモチベーション向上",
+                    "若手医師の育成",
+                    "チームのインスピレーション",
+                    "患者教育での卓越"
+                ],
+                weaknesses: [
+                    "過度の理想主義",
+                    "自己犠牲的",
+                    "批判への過敏性",
+                    "客観性の欠如"
+                ],
+                pitfalls: [
+                    "患者の問題を背負いすぎる",
+                    "自分のニーズを無視して燃え尽きる",
+                    "感情に流されて客観的判断を誤る",
+                    "理想を押し付けてしまう"
+                ],
+                advice: [
+                    "自分自身のケアも忘れずに",
+                    "客観的なデータも重視しましょう",
+                    "適切な境界線を保ちましょう",
+                    "現実的な目標設定を"
+                ]
+            },
+            "ENTJ": {
+                type: "戦略的なリーダードクター",
+                characteristics: [
+                    "強力なリーダーシップ",
+                    "長期的ビジョンを持つ",
+                    "効率性を追求する",
+                    "決断力がある"
+                ],
+                strengths: [
+                    "医療組織の改革",
+                    "戦略的な診療計画",
+                    "チームの効率化",
+                    "複雑な問題の解決"
+                ],
+                weaknesses: [
+                    "支配的で威圧的",
+                    "感情面への配慮不足",
+                    "せっかち",
+                    "批判的すぎる"
+                ],
+                pitfalls: [
+                    "患者の感情を無視して信頼を失う",
+                    "チームメンバーを威圧して士気を下げる",
+                    "急ぎすぎてミスを犯す",
+                    "批判的な態度で人間関係を損なう"
+                ],
+                advice: [
+                    "患者の感情にも目を向けましょう",
+                    "メンバーの意見を尊重しましょう",
+                    "時には立ち止まって確認を",
+                    "建設的なフィードバックを心がけましょう"
+                ]
+            }
+        };
+
+        let currentQuestion = 0;
+        let answers = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+
+        function startDiagnostic() {
+            document.getElementById('introSection').style.display = 'none';
+            document.getElementById('questionSection').style.display = 'block';
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const question = questions[currentQuestion];
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            const questionHTML = `
+                <div class="question-card">
+                    <div class="question-number">質問 ${currentQuestion + 1} / ${questions.length}</div>
+                    <div class="question-text">${question.question}</div>
+                    <div class="options">
+                        ${question.options.map((option, index) => `
+                            <label class="option" onclick="selectOption(${index})">
+                                <input type="radio" name="q${currentQuestion}" value="${option.value}">
+                                <span>${option.text}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('questionContainer').innerHTML = questionHTML;
+
+            // ボタンの状態を更新
+            document.getElementById('prevButton').disabled = currentQuestion === 0;
+
+            const nextButton = document.getElementById('nextButton');
+            if (currentQuestion === questions.length - 1) {
+                nextButton.textContent = '結果を見る';
+            } else {
+                nextButton.textContent = '次へ';
+            }
+        }
+
+        function selectOption(index) {
+            const options = document.querySelectorAll('.option');
+            options.forEach(opt => opt.classList.remove('selected'));
+            options[index].classList.add('selected');
+
+            const radio = options[index].querySelector('input[type="radio"]');
+            radio.checked = true;
+        }
+
+        function nextQuestion() {
+            const selected = document.querySelector(`input[name="q${currentQuestion}"]:checked`);
+
+            if (!selected) {
+                alert('選択肢を選んでください');
+                return;
+            }
+
+            // 回答を記録
+            const value = selected.value;
+            answers[value]++;
+
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                showQuestion();
+            } else {
+                showResult();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                // 前の回答を取り消す
+                const selected = document.querySelector(`input[name="q${currentQuestion}"]:checked`);
+                if (selected) {
+                    answers[selected.value]--;
+                }
+
+                currentQuestion--;
+                showQuestion();
+            }
+        }
+
+        function showResult() {
+            // MBTIタイプを判定
+            const type =
+                (answers.E >= answers.I ? 'E' : 'I') +
+                (answers.S >= answers.N ? 'S' : 'N') +
+                (answers.T >= answers.F ? 'T' : 'F') +
+                (answers.J >= answers.P ? 'J' : 'P');
+
+            const profile = mbtiDoctorProfiles[type];
+
+            document.getElementById('questionSection').style.display = 'none';
+            document.getElementById('resultSection').style.display = 'block';
+
+            document.getElementById('mbtiType').textContent = type;
+            document.getElementById('doctorType').textContent = profile.type;
+
+            const resultHTML = `
+                <div class="result-card">
+                    <h3>あなたの特徴</h3>
+                    <ul>
+                        ${profile.characteristics.map(item => `<li>${item}</li>`).join('')}
+                    </ul>
+                </div>
+
+                <div class="result-card">
+                    <h3>得意なこと</h3>
+                    <ul>
+                        ${profile.strengths.map(item => `<li>${item}</li>`).join('')}
+                    </ul>
+                </div>
+
+                <div class="result-card">
+                    <h3>苦手なこと・弱点</h3>
+                    <ul>
+                        ${profile.weaknesses.map(item => `<li>${item}</li>`).join('')}
+                    </ul>
+                </div>
+
+                <div class="result-card">
+                    <h3>陥りやすい失敗パターン</h3>
+                    <ul>
+                        ${profile.pitfalls.map(item => `<li>${item}</li>`).join('')}
+                    </ul>
+                </div>
+
+                <div class="result-card">
+                    <h3>アドバイス</h3>
+                    <ul>
+                        ${profile.advice.map(item => `<li>${item}</li>`).join('')}
+                    </ul>
+                </div>
+            `;
+
+            document.getElementById('resultContent').innerHTML = resultHTML;
+        }
+
+        function restartDiagnostic() {
+            currentQuestion = 0;
+            answers = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+
+            document.getElementById('resultSection').style.display = 'none';
+            document.getElementById('introSection').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
