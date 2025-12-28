@@ -1,0 +1,9 @@
+# Core dependencies
+anthropic>=0.18.0
+watchdog>=4.0.0
+click>=8.1.0
+PyYAML>=6.0.0
+Pillow>=10.0.0
+
+# Optional dependencies
+tenacity>=8.2.0  # For retry logic

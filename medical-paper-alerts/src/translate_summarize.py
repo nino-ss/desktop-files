@@ -40,7 +40,7 @@ class PaperTranslator:
             else:
                 self.client = Anthropic(api_key=api_key)
 
-        self.model = self.config['claude_api'].get('model', 'claude-sonnet-4-5-20250929')
+        self.model = self.config['claude_api'].get('model', 'claude-3-5-sonnet-20241022')
         self.max_tokens = self.config['claude_api'].get('max_tokens', 4096)
 
     def _load_config(self, config_path: str) -> dict:

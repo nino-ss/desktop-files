@@ -91,7 +91,7 @@ notification:
 # Claude API設定（和訳・解説用）
 claude_api:
   api_key: ""  # Anthropic API key
-  model: "claude-sonnet-4-5-20250929"
+  model: "claude-3-5-sonnet-20241022"
   max_tokens: 4096
 
 # ストレージ設定

@@ -1,0 +1,43 @@
+# 監視設定
+monitor:
+  watch_folder: "~/Desktop/Screenshots"
+  file_types: [".png", ".jpg", ".jpeg"]
+  wait_seconds: 5
+
+# 保存設定
+storage:
+  base_folder: "~/Desktop/医療スライド・論文作成資料"
+  temp_folder: "~/Desktop/医療スライド・論文作成資料/_temp"
+  archive_images: true
+
+# AI設定
+ai:
+  provider: "anthropic"
+  model: "claude-3-5-sonnet-20241022"
+  max_tokens: 4096
+
+# 分類設定
+classification:
+  categories:
+    - "婦人科/GSM関連"
+    - "婦人科/骨盤臓器脱"
+    - "婦人科/更年期障害"
+    - "産科"
+    - "泌尿器科"
+    - "一般"
+
+# 類似資料検出設定
+similar_detection:
+  enabled: true
+  similarity_threshold: 0.7
+  old_resource_months: 12  # 何ヶ月以前を「古い資料」とするか
+
+# 情報鮮度管理
+freshness:
+  warning_years: 2
+  check_interval_days: 7
+
+# 通知設定
+notification:
+  enabled: true
+  method: "macos"  # or "email"

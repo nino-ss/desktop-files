@@ -1,0 +1,317 @@
+
+227 個のファイルが見つかりました。
+
+スキップ: /Users/ninomiya/Desktop/20260113メヂカルレビュー執筆性交痛・GSM/執筆フォーマット.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/20260113メヂカルレビュー執筆性交痛・GSM/執筆概要.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/20260113メヂカルレビュー執筆性交痛・GSM/執筆要項.md は既に存在します（--overwriteで上書き可能）
+変換中: /Users/ninomiya/Desktop/20260228浪速区漢方/浪速区医師会pages.pages -> /Users/ninomiya/Desktop/20260228浪速区漢方/浪速区医師会pages.md
+警告: /Users/ninomiya/Desktop/20260228浪速区漢方/浪速区医師会pages.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/202604泌尿器科総会/202604泌尿器科総会抄録.pages -> /Users/ninomiya/Desktop/202604泌尿器科総会/202604泌尿器科総会抄録.md
+警告: /Users/ninomiya/Desktop/202604泌尿器科総会/202604泌尿器科総会抄録.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/20260611泌尿器漢方/抄録.pages -> /Users/ninomiya/Desktop/20260611泌尿器漢方/抄録.md
+警告: /Users/ninomiya/Desktop/20260611泌尿器漢方/抄録.pages をテキストに変換できませんでした。
+スキップ: /Users/ninomiya/Desktop/AI/1-001_Slackの使い方.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/1-002_AI活用×アプリケーション開発を行うための基礎知識.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/1-003_環境構築マニュアル.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/1-004_Claude Codeで自己紹介サイトを作ろう.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/1-005_プロンプトの基本.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/2-001_アプリケーションを設計する方法.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/2-001_看板ボード風タスク管理アプリケーション開発実践マニュアル.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/2-002_Claude Codeを使った開発手法.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/2-002_アプリケーション公開（デプロイ）マニュアル (1).md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/2-002_アプリケーション公開（デプロイ）マニュアル.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/3-001_セキュリティと法律に関して学ぶ前に.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/3-002_セキュリティの基本.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/3-003_法律・規約の基礎知識.md は既に存在します（--overwriteで上書き可能）
+変換中: /Users/ninomiya/Desktop/AI/CLAUDE.md.pages -> /Users/ninomiya/Desktop/AI/CLAUDE.md.md
+警告: /Users/ninomiya/Desktop/AI/CLAUDE.md.pages をテキストに変換できませんでした。
+スキップ: /Users/ninomiya/Desktop/AI/【Mac】開発環境構築マニュアル.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/AI/【Windows】開発環境構築マニュアル.md は既に存在します（--overwriteで上書き可能）
+変換中: /Users/ninomiya/Desktop/AI/要件定義書を作成するヒアリングプロンプト.pages -> /Users/ninomiya/Desktop/AI/要件定義書を作成するヒアリングプロンプト.md
+警告: /Users/ninomiya/Desktop/AI/要件定義書を作成するヒアリングプロンプト.pages をテキストに変換できませんでした。
+スキップ: /Users/ninomiya/Desktop/GSMlaser研究計画書テンプレート.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/pre/Heather Quaile.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/pre/Jandra Mueller.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/pre/Juliana Kling.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/pre/Michelle.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/pre/Sarah Cigna.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/pre/Sharon Parish.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/pre/Sheryl Kingsberg.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Alexandra Hill.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Bernard Harlow.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Carolyn Gibson.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Irwin Goldstein.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Jason Kutch.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Lori Brotto.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Marlene Werner.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Michael Hibner.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Mindy Goldman.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2024/syllabus/Susan Kellogg-Spadt.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_27_Irwin Goldstein.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_27_Lance Frank.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_27_Rose Hartzell.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_28_Erin Sullivan.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_28_Megan Falsetta - Journals Session.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_28_Michelle Martin.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_28_Talli Rosenbaum.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_28_Tami Rowen.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/2_28_Tierney Lorenz.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/3_1_James Pfaus.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/3_1_Martin Miner.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/3_1_Sarah Ponce.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/シラバス/3_1_Sue W. Goldstein.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Anita Mikkilineni - Hormonal Agents for HSDD.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Caitlin and Horwitz Pre-course.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Erika Kelley.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Heather Howard Pre-course.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Heather Quaile.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Sarah Cigna - Physical Exam.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Sarah Cigna - Sexual Pain Causes Diagnosis and Treatment.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/プレコース/Sarah Cigna - Welcome Messages.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/文字起こしデータ/2-28/YahooJapanMail_2025_03_01/Symposium2______.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ISSWSH2025/文字起こしデータ/2-28/YahooJapanMail_2025_03_01/Symposium2_______.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/convert_env/lib/python3.13/site-packages/docx/templates/default.md は既に存在します（--overwriteで上書き可能）
+変換中: /Users/ninomiya/Desktop/kimie保存用/人生物語.pages -> /Users/ninomiya/Desktop/kimie保存用/人生物語.md
+警告: /Users/ninomiya/Desktop/kimie保存用/人生物語.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/今井さん手紙.pages -> /Users/ninomiya/Desktop/kimie保存用/今井さん手紙.md
+警告: /Users/ninomiya/Desktop/kimie保存用/今井さん手紙.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/労働保険料の年度更新.pages -> /Users/ninomiya/Desktop/kimie保存用/労働保険料の年度更新.md
+警告: /Users/ninomiya/Desktop/kimie保存用/労働保険料の年度更新.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/労働者名簿.pages -> /Users/ninomiya/Desktop/kimie保存用/労働者名簿.md
+警告: /Users/ninomiya/Desktop/kimie保存用/労働者名簿.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/喫茶店のススメ.pages -> /Users/ninomiya/Desktop/kimie保存用/喫茶店のススメ.md
+警告: /Users/ninomiya/Desktop/kimie保存用/喫茶店のススメ.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/建物賃貸借契約書.pages -> /Users/ninomiya/Desktop/kimie保存用/建物賃貸借契約書.md
+警告: /Users/ninomiya/Desktop/kimie保存用/建物賃貸借契約書.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/母の言いたい事.pages -> /Users/ninomiya/Desktop/kimie保存用/母の言いたい事.md
+警告: /Users/ninomiya/Desktop/kimie保存用/母の言いたい事.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/水道代のお知らせ.pages -> /Users/ninomiya/Desktop/kimie保存用/水道代のお知らせ.md
+警告: /Users/ninomiya/Desktop/kimie保存用/水道代のお知らせ.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/kimie保存用/遅延理由署.pages -> /Users/ninomiya/Desktop/kimie保存用/遅延理由署.md
+警告: /Users/ninomiya/Desktop/kimie保存用/遅延理由署.pages をテキストに変換できませんでした。
+スキップ: /Users/ninomiya/Desktop/mirajet USB/Mirajet Certificates/CONFIRMATION LETTER_ CL1-V4a_JSKBiomed_2024-09.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/Mirajet Certificates/Certificate of Free Sales (Japan) 241121.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/Mirajet Certificates/ISO13458_2612.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/Mirajet Certificates/KFDA Certificate (Mirajet)_241108.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/Mirajet Certificates/※Mirajet CE Certificate declaration_additional of HP.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/カタログ・ポスター/A4チラシ-ミラジェット(両面チラシ).md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/カタログ・ポスター/A4チラシ-ミラジェット両面チラシ2.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/カタログ・ポスター/カタログ ミラジェットダイナミス 250115-24p_Dynamis.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/プレゼン/231213_[mirajet]_소개자료_JSKBIOMED_EN.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/プレゼン/Dr宮田 美容外科2024（院内教育資料WEB資料不可）.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/プレゼン/mirajet fotona japan.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/マニュアル/User Manual (En).md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/マニュアル/ミラジェットマニュアル＋パラメーター（241206更新）.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/マニュアル/ミラジェットマニュアル＋パラメーター（241206更新）ラミネート用.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/文献 Papers/220418_mirajet (CA)_SCI_연세대학교.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/文献 Papers/230813_Clinical Report_서울대학교.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/文献 Papers/240419_Facial Skin Rejuvenation Using Poly-DL-Lactic Acid (EN)._한림대성심병원.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/文献 Papers/240520_Effective improvement methods for striae distensae  A novel approach utilizing.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/文献 Papers/Erbium_ YAG laser (2,940 nm) treatment stimulates hair growth through upregulating Wnt 10b and β-catenin expression in C57BL_6 mice - PMC.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/mirajet USB/文献 Papers/MANAGING ANDROGENETIC ALOPECIA WITH HAIRESTART® – Estetic Magazine.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ココシカ/2020年度光熱費.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ココシカ/BTL契約書2020年/(株)ココシカ女性医療研究所 (二宮先生) 10.25.2020.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ココシカ/BTL契約書2020年/(株)ココシカ女性医療研究所 (二宮先生) 11.08.2020.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/ココシカ/account_activities_202006.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/凛プロジェクト/【相談】看取り.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/凛プロジェクト/新規事業提案 2.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/凛プロジェクト/新規事業提案 ３.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/凛プロジェクト/新規事業提案.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2021アート/21年10月アート売上明細.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2021アート/21年11月アート売上明細.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2021アート/21年12月アート売上明細.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2021アート/21年7月8月9月アート売上明細.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/202204アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/2022年1月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/2022年2月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年10月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年11月アート.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年12月アート.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年3月アート売上表.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年5月アート売上１.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年6月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年7月アート.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年8月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2022アート/22年9月売上実績表.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/202302アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/202305アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/202306アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/202307アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/2023年10月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/2303アート.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/2304アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/2308アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/2309アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/2311アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2023アート/23年1月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202402アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202402アート売上修正.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202406アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202407アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202408アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202410アート.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202411アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/202412アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/2024アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/2409アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/24年5月アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2024アート/art2404.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202502アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202503アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202504アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202505アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202506アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202507アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202508アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202509アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202510アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202511アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/202512アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/2025アート/2501アート売上.md は既に存在します（--overwriteで上書き可能）
+スキップ: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/乳がん手術.md は既に存在します（--overwriteで上書き可能）
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/訪問後挨拶文　二宮訂正後.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/訪問後挨拶文　二宮訂正後.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/アート売上/訪問後挨拶文　二宮訂正後.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/京都/23年10月ヒアリング京都.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/京都/23年10月ヒアリング京都.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/京都/23年10月ヒアリング京都.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/京都/24年2月ヒアリング京都.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/京都/24年2月ヒアリング京都.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/京都/24年2月ヒアリング京都.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/心斎橋/ヒアリング心斎橋2月.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/心斎橋/ヒアリング心斎橋2月.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/心斎橋/ヒアリング心斎橋2月.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/レポート.docx -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/レポート.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/レポート.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/報告書.docx -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/報告書.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/報告書.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/報告書田上さん.docx -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/報告書田上さん.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/ヒアリング資料/芦屋/24年2月/報告書田上さん.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/価格変更提案書.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/価格変更提案書.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/価格変更提案書.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/21年勤怠/21年11月勤怠計算.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/21年勤怠/21年11月勤怠計算.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/21年勤怠/21年11月勤怠計算.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/21年勤怠/21年12月勤怠計算.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/21年勤怠/21年12月勤怠計算.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/21年勤怠/21年12月勤怠計算.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年10月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年10月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年10月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年11月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年11月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年11月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年12月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年12月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年12月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年1月勤怠計算.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年1月勤怠計算.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年1月勤怠計算.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年4月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年4月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年4月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年5月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年5月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年5月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年6月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年6月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年6月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年8月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年8月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年8月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年9月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年9月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年9月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年２月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年２月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年２月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年３月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年３月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年３月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年７月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年７月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/22年勤怠/22年７月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年11 月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年11 月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年11 月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年1月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年1月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年1月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年3月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年3月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年3月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年4月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年4月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年4月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年5月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年5月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年5月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年7月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年7月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年7月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年8月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年8月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年8月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年２月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年２月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年２月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年６月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年６月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年６月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年９月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年９月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/23年勤怠/23年９月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年1 月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年1 月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年1 月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年10月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年10月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年10月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年11月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年11月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年11月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年11月勤怠改.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年11月勤怠改.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年11月勤怠改.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年12月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年12月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年12月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年4月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年4月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年4月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年5月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年5月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年5月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年6月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年6月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年6月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年7月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年7月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年7月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年8月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年8月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年8月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年9月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年9月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/24勤怠/24年9月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年10月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年10月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年10月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年11月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年11月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年11月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年12月勤怠1.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年12月勤怠1.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年12月勤怠1.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年2月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年2月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年2月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年4月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年4月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年4月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年5月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年5月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年5月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年6月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年6月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年6月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年7月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年7月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年7月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年8月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年8月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年8月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年9月勤怠.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年9月勤怠.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/勤怠計算/25勤怠/25年9月勤怠.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/2022年7月から2023年2月.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/2022年7月から2023年2月.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/2022年7月から2023年2月.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/2023年3月から6月売上.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/2023年3月から6月売上.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/2023年3月から6月売上.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/21年7月から22年6月売上.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/21年7月から22年6月売上.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/売上/PDF/21年7月から22年6月売上.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/竹中さん主任辞令.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/竹中さん主任辞令.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/竹中さん主任辞令.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令丸山主任.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令丸山主任.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令丸山主任.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令浅田さん異動.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令浅田さん異動.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令浅田さん異動.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令田上異動.pdf -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令田上異動.md
+✓ 完了: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/PDF/辞令田上異動.md
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令丸山主任.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令丸山主任.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令丸山主任.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令山本主任.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令山本主任.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令山本主任.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令浅田異動.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令浅田異動.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令浅田異動.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令田上異動.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令田上異動.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令田上異動.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令竹中主任.pages -> /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令竹中主任.md
+警告: /Users/ninomiya/Desktop/勤怠・アート・ヒアリング/辞令/pages/辞令竹中主任.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/新規事業Polaris/GBクリームライセンス.docx -> /Users/ninomiya/Desktop/新規事業Polaris/GBクリームライセンス.md
+✓ 完了: /Users/ninomiya/Desktop/新規事業Polaris/GBクリームライセンス.md
+スキップ: /Users/ninomiya/Desktop/新規事業Polaris/GBクリームライセンス.md は既に存在します（--overwriteで上書き可能）
+変換中: /Users/ninomiya/Desktop/新規事業Polaris/GBライセンス契約書.docx -> /Users/ninomiya/Desktop/新規事業Polaris/GBライセンス契約書.md
+✓ 完了: /Users/ninomiya/Desktop/新規事業Polaris/GBライセンス契約書.md
+スキップ: /Users/ninomiya/Desktop/新規事業Polaris/GBライセンス契約書.md は既に存在します（--overwriteで上書き可能）
+変換中: /Users/ninomiya/Desktop/新規事業Polaris/ポラリス業務委託契約書.pdf -> /Users/ninomiya/Desktop/新規事業Polaris/ポラリス業務委託契約書.md
+✓ 完了: /Users/ninomiya/Desktop/新規事業Polaris/ポラリス業務委託契約書.md
+変換中: /Users/ninomiya/Desktop/新規事業Polaris/安倍先生/安倍先生　試作案.pages -> /Users/ninomiya/Desktop/新規事業Polaris/安倍先生/安倍先生　試作案.md
+警告: /Users/ninomiya/Desktop/新規事業Polaris/安倍先生/安倍先生　試作案.pages をテキストに変換できませんでした。
+変換中: /Users/ninomiya/Desktop/新規事業Polaris/株式会社設立事項リスト　20250723瑞樹可記.pdf -> /Users/ninomiya/Desktop/新規事業Polaris/株式会社設立事項リスト　20250723瑞樹可記.md
+✓ 完了: /Users/ninomiya/Desktop/新規事業Polaris/株式会社設立事項リスト　20250723瑞樹可記.md
+変換中: /Users/ninomiya/Desktop/電子カルサポート/orca_com_terms.pdf -> /Users/ninomiya/Desktop/電子カルサポート/orca_com_terms.md
+✓ 完了: /Users/ninomiya/Desktop/電子カルサポート/orca_com_terms.md
+
+変換完了: 60/227 ファイル

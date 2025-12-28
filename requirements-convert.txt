@@ -1,0 +1,10 @@
+# PDF、Word、PagesをMarkdownに変換するためのライブラリ
+
+# PDF変換
+PyMuPDF>=1.23.0
+
+# Word変換（推奨：より良い変換結果）
+mammoth>=1.6.0
+
+# Word変換（フォールバック）
+python-docx>=1.1.0
