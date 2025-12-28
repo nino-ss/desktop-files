@@ -35,3 +35,69 @@ Temporary Items
 # 特定の大きなPDFファイル
 **/カタログ ミラジェットダイナミス 250115-24p_Dynamis.pdf
 
+# ================================
+# 機密情報・資格情報の除外設定
+# ================================
+
+# 環境変数・設定ファイル（APIキーやパスワードを含みやすい）
+.env
+.env.*
+*.env
+*.env.*
+*.secret
+*.secrets
+*.config.local
+*.local.json
+*.local.yml
+*.local.yaml
+
+# 資格情報・鍵ファイル
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.csr
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+known_hosts
+
+# 認証情報っぽい名前のファイルを一括で除外（念のため）
+*credential*
+*credentials*
+*secret*
+*secrets*
+*apikey*
+*api_key*
+*token*
+*tokens*
+
+# ログ・バックアップ（ログに患者情報や経営データが残るリスク）
+*.log
+log/
+logs/
+*.bak
+*.backup
+*.old
+*.swp
+*.swo
+
+# 一般的なデータベース・ダンプファイル
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.dump
+
+# Office系の一時ファイル（~ で始まる一時ファイルなど）
+~$*
+
+# 決算・財務・経営資料フォルダ
+/経営資料/
+/決算/
+/財務/
